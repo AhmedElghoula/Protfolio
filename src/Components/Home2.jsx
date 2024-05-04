@@ -82,7 +82,7 @@ function Home2() {
                 initial={{ opacity: 0 }}
                 animate={{
                   opacity: isInView ? 1 : 0,
-                  transform: isInView ? "translateX(0px)" : "translateX(180px)",
+                  transform: isInView ? "translateX(0px)" : "translateX(80px)",
                 }}
                 transition={{
                   duration: 0.5,
