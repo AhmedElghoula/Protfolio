@@ -21,15 +21,20 @@ const App = () => {
   }, []);
   return (
     <div id="main">
-      <Loader load={load} />
-      <NavBar />
-      <Home2 />
-      <section id="Portfolio">
-        <Parallax />
-      </section>
-      <About />
-      <Projects />
-      <Footer />
+      {load ? (
+        <Loader load={load} />
+      ) : (
+        <>
+          <NavBar />
+          <Home2 />
+          <section id="Portfolio">
+            <Parallax />
+          </section>
+          <About />
+          <Projects />
+          <Footer />
+        </>
+      )}
     </div>
   );
 };

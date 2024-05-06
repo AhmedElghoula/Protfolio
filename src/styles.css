@@ -700,6 +700,9 @@ button:focus {
   .skill {
     padding: 10px !important;
   }
+  .home-header{
+    padding-top: 50px !important;
+  }
 }
 .tech-icons:hover .skill {
   color: green;
@@ -894,19 +897,18 @@ button:focus {
   height: 100%;
   z-index: 999999;
   background-color: #0c0513;
-  /* background-image: url(./images/pre.svg);
-  background-repeat: no-repeat;
-  background-position: center; */
+
 }
 
 .spinner {
   position:absolute;
-  right: 50%;
+  right: 47%;
   top: 50%;
   width: 44px;
   height: 44px;
   animation: spinner-y0fdc1 2s infinite ease;
   transform-style: preserve-3d;
+  transform: translate(-50%, -50%);
  }
  
  .spinner > div {

@@ -82,7 +82,7 @@ function Home2() {
                 initial={{ opacity: 0 }}
                 animate={{
                   opacity: isInView ? 1 : 0,
-                  transform: isInView ? "translateX(0px)" : "translateX(80px)",
+                  transform: isInView ? "translateX(0px)" : "translateX(20px)",
                 }}
                 transition={{
                   duration: 0.5,
@@ -99,16 +99,13 @@ function Home2() {
                   padding: "5px",
                 }}
               />
-               
             </Col>
-          
           </Row>
         </Container>
-        <div style={{display:'flex',alignItems:'center',justifyContent: "center"}}>
-        <Scroll />
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+          <Scroll />
         </div>
       </Container>
-    
     </section>
   );
 }

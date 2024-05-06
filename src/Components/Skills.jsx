@@ -16,7 +16,6 @@ import Postgresql from "../images/Postgresql.png";
 import java from "../images/java.png";
 import elastic from "../images/elastic.png";
 
-
 import { SiDjango } from "react-icons/si";
 import "bootstrap/dist/css/bootstrap.min.css";
 function Skills() {
@@ -27,7 +26,14 @@ function Skills() {
 
   return (
     <Row ref={ref} style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <OverlayTrigger placement="top" overlay={<Tooltip id="tooltip-top" className="shake-tooltip">Django</Tooltip>}>
+      <OverlayTrigger
+        placement="top"
+        overlay={
+          <Tooltip id="tooltip-top" className="shake-tooltip">
+            Django
+          </Tooltip>
+        }
+      >
         <Col xs={4} md={2} className="tech-icons">
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
