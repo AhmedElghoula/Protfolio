@@ -50,7 +50,7 @@ function Home2() {
                 }}
               >
                 I AM
-                <strong className="main-name"> ElGHOULA Ahmed</strong>
+                <strong className="main-name"> Ahmed ELGHOULA</strong>
               </motion.h1>
 
               <motion.div

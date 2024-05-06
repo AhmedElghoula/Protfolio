@@ -48,7 +48,7 @@ function About() {
                     <AiFillGithub />
                   </a>
                 </motion.li>
-                <motion.li className="social-icons"animate={controls}>
+                <motion.li className="social-icons" animate={controls}>
                   <a
                     href="https://www.linkedin.com/in/elghoula-ahmed/"
                     target="_blank"
@@ -75,16 +75,17 @@ function About() {
                 delay: inView ? 0.25 : 0,
               }}
             >
+              <br />
               Hi Everyone, I am <span className="Blue">Elghoula Ahmed</span>
               <br />
-              <br />
-              A dedicated Full Stack Developer hailing from Tunisia.
+              A dedicated Full Stack Developer from Tunisia.
               <br />
               With a dynamic, creative, and autonomous approach, I thrive in collaborative
               environments, valuing teamwork as a cornerstone of successful projects.
-              <br />
             </motion.p>
-            <motion.p className="home-about-body" animate={{
+            <motion.p
+              className="home-about-body"
+              animate={{
                 opacity: inView ? 1 : 0,
                 transform: inView ? "translateX(0px)" : "translateX(-180px)",
               }}
@@ -92,7 +93,8 @@ function About() {
                 duration: 0.5,
                 transition: "cubic-bezier(0.17, 0.55, 0.55, 1)",
                 delay: inView ? 0.25 : 0,
-              }}>
+              }}
+            >
               <br />
               My primary focus lies in crafting innovative
               <i>

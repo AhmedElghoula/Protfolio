@@ -60,7 +60,7 @@ function NavBar() {
                 delay: isInView ? 0.25 : 0,
               }}
             >
-              <strong className="Blue">E</strong>lghoula <strong className="Blue">A</strong>hmed
+              <strong className="Blue">A</strong>hmed <strong className="Blue">E</strong>lghoula
             </motion.div>
           </motion.div>
         </Navbar.Brand>
@@ -95,10 +95,10 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-  <Nav.Link href={Resume} target="_blank" onClick={() => updateExpanded(false)}>
-    <FaRegFileAlt style={{ marginBottom: "2px" }} /> Resume
-  </Nav.Link>
-</Nav.Item>
+              <Nav.Link href={Resume} target="_blank" onClick={() => updateExpanded(false)}>
+                <FaRegFileAlt style={{ marginBottom: "2px" }} /> Resume
+              </Nav.Link>
+            </Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button
