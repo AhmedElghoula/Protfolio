@@ -68,7 +68,7 @@ function Home2() {
               >
                 <Typewriter
                   options={{
-                    strings: ["Software Computer Engineer", "Freelancer", "Full-stack developer"],
+                    strings: ["Software Engineer", "Freelancer", "Full-stack developer"],
                     autoStart: true,
                     loop: true,
                     deleteSpeed: 50,
