@@ -8,7 +8,7 @@ import { TiHomeOutline } from "react-icons/ti";
 import { FaRegFileAlt } from "react-icons/fa";
 import { AiOutlineFundProjectionScreen, AiFillGithub } from "react-icons/ai";
 import { CgProfile } from "react-icons/cg";
-import Resume from "../images/Resume_ELGHOULA_Ahmed.pdf";
+import Resume from "../images/Resume_Ahmed_Elghoula_.pdf";
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
